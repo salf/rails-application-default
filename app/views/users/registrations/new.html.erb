@@ -1,0 +1,11 @@
+<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { class: 'form-signin'}) do |f| %>
+  <%= f.error_notification %>
+  <h2 class="form-signin-heading">Sign up</h2>
+  <%= f.input :email, required: true, autofocus: true, placeholder: "Email address", label: false, input_html: {class: 'form-control'}, wrapper: false %>
+  <%= f.input :password, required: true, placeholder: "Password", label: false, input_html: {class: 'form-control'}, wrapper: false %>
+
+  <%= f.button :submit, class: 'btn btn-lg btn-primary btn-block' %>
+  <div class='links'>
+    <%= render "users/shared/links" %>
+  </div>
+<% end %>

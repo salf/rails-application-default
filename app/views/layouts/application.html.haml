@@ -1,0 +1,34 @@
+!!! 5
+%html(lang="en")
+  %head
+    =render 'shared/head'
+
+  %body
+    =nav_bar responsive: true, inverse: true, fixed: :top, brand: "Train v1.0" do
+      = menu_group do
+        = menu_item "Home", root_path
+        = menu_item "About Us", ''
+        = menu_item "Contact", ''
+      -if current_user
+        = menu_group :pull => :right do
+          = menu_item "Log Out", destroy_user_session_path
+      -else
+        = menu_group :pull => :right do
+          = menu_item "Log In", sign_in_path
+    .container
+      .row
+        .col-sm-9
+          = bootstrap_flash
+          .well
+            = yield
+        .col-sm-3
+          .well.sidebar-nav
+            %h3 Sidebar
+            %ul.nav.nav-list
+              %li.nav-header Sidebar
+              %li= link_to "Link 1", "/path1"
+              %li= link_to "Link 2", "/path2"
+              %li= link_to "Link 3", "/path3"
+    %nav.navbar.navbar-fixed-bottom.navbar-defaul.footer
+      .container
+        %p.text-muted.credit &copy; Company 2013

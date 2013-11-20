@@ -1,0 +1,32 @@
+@import "custom_fonts";
+
+$font-family-meseo-stack: "Museosans500","Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-family-meseo-stack-regular: "Museo700","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+html body {
+  padding-top: 70px;
+  background: image-url("bgd.jpg") repeat scroll 0 0 #C4C4C4;
+  color: #111111;
+  font-family: $font-family-meseo-stack;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-family-meseo-stack-regular;
+}
+.navbar {
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  font-family: $font-family-meseo-stack;
+}
+nav.footer {
+  min-height: 0;
+  .container p{
+    margin: 7px 0;
+    font-size: 0.8em;
+  }
+}
+.user-edit .input{
+  margin-bottom: 30px;
+  input{
+    width: 270px;
+  }
+}
