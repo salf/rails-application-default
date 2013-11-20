@@ -17,7 +17,7 @@
 * * *
 All you need is:
 
-> ➜ `git clone git@bitbucket.org:salf/rails-application-default.git <path_to_export> && rm -rf <path_to_export>/.git`
+> ➜ `git clone git@github.com:salf/rails-application-default.git <path_to_export> && rm -rf <path_to_export>/.git`
 
 > ➜ `cd <path_to_export>`
 
