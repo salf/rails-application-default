@@ -7,6 +7,7 @@
   * 4.0.1
 
 ## System dependencies
+  * devise
   * mysql2
   * twitter-bootstrap v3
   * turbolinks
