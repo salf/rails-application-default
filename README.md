@@ -7,8 +7,14 @@
   * 4.0.1
 
 ## System dependencies
-  * devise
   * mysql2
   * twitter-bootstrap v3
   * turbolinks
   * simple_form
+
+* * *
+Screenshots:
+
+![Inside view](https://dl.dropboxusercontent.com/u/2759137/inside.png "Inside view")
+
+![Sign In form](https://dl.dropboxusercontent.com/u/2759137/login.png "Sign In form")
