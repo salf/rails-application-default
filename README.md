@@ -13,6 +13,7 @@
   * simple_form
 
 * * *
+* * *
 Screenshots:
 
 ![Inside view](https://dl.dropboxusercontent.com/u/2759137/inside.png "Inside view")
