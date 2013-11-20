@@ -13,6 +13,24 @@
   * turbolinks
   * simple_form
 
+
+* * *
+All you need is:
+
+> ➜ `git clone git@bitbucket.org:salf/rails-application-default.git <path_to_export> && rm -rf <path_to_export>/.git`
+
+> ➜ `cd <path_to_export>`
+
+> ➜ `bundle install`
+
+> customize configs on your own way
+
+> ➜ `rake db:create`
+
+> ➜ `rake db:migrate`
+
+> ➜ `rails s`
+
 * * *
 * * *
 Screenshots:
